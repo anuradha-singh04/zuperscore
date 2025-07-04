@@ -6,14 +6,14 @@ const Footer = () => {
         <div className=' bg-[#721154] '>
 
             {/* 1st section */}
-            <div className='flex flex-wrap justify-between gap-10 p-5 px-6  md:px-12 max-w-[1280px] mx-auto'>
+            <div className='flex flex-wrap justify-between gap-10 p-5 px-6 max-w-[1280px] mx-auto'>
                 <div className='pt-6 gap-10'>
-                    <h1 className=' text-[#FFF3FC] font-[Protest_Strike] text-[40px] font-semibold leading-[140%] tracking-[0.72px]' >
+                    <h1 className=' text-[#FFF3FC] font-[Protest_Strike] text-[40px] font-normal leading-[140%] tracking-[0.72px]' >
                         Zuperscore
                     </h1>
 
                     {/* call */}
-                    <div className='text-white font-[Poppins] text-[16px] font-normal leading-[140%] tracking-[0.288px] mt-2 '>
+                    <div className='text-white font-[Poppins] text-[20px] font-normal leading-[140%] tracking-[0.36px] mt-2 '>
                         <a href='tel:+919220502157' className=' flex gap-2'>
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -135,22 +135,22 @@ const Footer = () => {
                     <h1 className='text-white font-[Poppins] text-[24px] font-semibold leading-[140%] tracking-[0.432px] mt-[5%]'>
                         Quick Links
                     </h1>
-                    <ul className='flex flex-col gap-2 text-[16px] font-normal leading-[140%] tracking-[0.288px] mt-2'>
-                         <Link href='/Satnpaper'>
-                         <li className="cursor-pointer hover:underline"> Satnpaper</li>
-                         </Link>
+                    <ul className='flex flex-col gap-2 text-[20px] font-normal leading-[140%] tracking-[0.36px] mt-2'>
+                        <Link href='/Satnpaper'>
+                            <li className="cursor-pointer hover:underline"> Satnpaper</li>
+                        </Link>
                         <Link href="/About-us">
                             <li className="cursor-pointer hover:underline">About us</li>
                         </Link>
                         <Link href='/Zupians'>
-                        <li className="cursor-pointer hover:underline">Zupians</li>
+                            <li className="cursor-pointer hover:underline">Zupians</li>
                         </Link>
                         <Link href='/Zuperscore'>
-                        <li className="cursor-pointer hover:underline">Zuperscore</li>
+                            <li className="cursor-pointer hover:underline">Zuperscore</li>
                         </Link>
-                      <Link href='/Zupcal'>
-                      <li className="cursor-pointer hover:underline">Zupcal</li>
-                      </Link>  
+                        <Link href='/Zupcal'>
+                            <li className="cursor-pointer hover:underline">Zupcal</li>
+                        </Link>
                     </ul>
                 </div>
 
@@ -160,13 +160,25 @@ const Footer = () => {
                     <h1 className='text-white font-[Poppins] text-[24px] font-semibold leading-[140%] tracking-[0.432px] mt-[5%]'>
                         SAT Programs
                     </h1>
-                    <ul className='flex flex-col gap-2 text-[16px] font-normal leading-[140%] tracking-[0.288px] mt-2'>
-                        <li> <a href='/Flagship'></a> Flagship</li>
-                        <li><a href='/Sprint'></a>Sprint</li>
-                        <li><a href='/Accelerator'></a>Accelerator</li>
-                        <li><a href='/Crash'></a>Crash</li>
-                        <li><a href='/Maths Only'></a>Maths Only</li>
-                        <li><a href='/English Only'></a>English Only</li>
+                    <ul className='flex flex-col gap-2 text-[20px] font-normal leading-[140%] tracking-[0.36px] mt-2'>
+                        <Link href="/Flagship">
+                            <li className="cursor-pointer hover:underline">Flagship</li>
+                        </Link>
+                        <Link href="/Sprint">
+                            <li className="cursor-pointer hover:underline">Sprint</li>
+                        </Link>
+                        <Link href="/Accelerator">
+                            <li className="cursor-pointer hover:underline">Accelerator</li>
+                        </Link>
+                        <Link href="/Crash">
+                            <li className="cursor-pointer hover:underline">Crash</li>
+                        </Link>
+                        <Link href="/Maths Only">
+                            <li className="cursor-pointer hover:underline">Maths Only</li>
+                        </Link>
+                        <Link href="/English Only">
+                            <li className="cursor-pointer hover:underline">English Only</li>
+                        </Link>
                     </ul>
                 </div>
 
@@ -176,13 +188,25 @@ const Footer = () => {
                     <h1 className='text-white font-[Poppins] text-[24px] font-semibold leading-[140%] tracking-[0.432px] mt-[5%]'>
                         ACT Programs
                     </h1>
-                    <ul className='flex flex-col gap-2 text-[16px] font-normal leading-[140%] tracking-[0.288px] mt-2'>
-                        <li> <a href='/Flagship'></a> Flagship</li>
-                        <li><a href='/Sprint'></a>Sprint</li>
-                        <li><a href='/Accelerator'></a>Accelerator</li>
-                        <li><a href='/Crash'></a>Crash</li>
-                        <li><a href='/Maths Only'></a>Maths Only</li>
-                        <li><a href='/English Only'></a>English Only</li>
+                    <ul className='flex flex-col gap-2 text-[20px] font-normal leading-[140%] tracking-[0.36px] mt-2'>
+                    <Link href="/Flagship">
+                            <li className="cursor-pointer hover:underline">Flagship</li>
+                        </Link>
+                        <Link href="/Sprint">
+                            <li className="cursor-pointer hover:underline">Sprint</li>
+                        </Link>
+                        <Link href="/Accelerator">
+                            <li className="cursor-pointer hover:underline">Accelerator</li>
+                        </Link>
+                        <Link href="/Crash">
+                            <li className="cursor-pointer hover:underline">Crash</li>
+                        </Link>
+                        <Link href="/Maths Only">
+                            <li className="cursor-pointer hover:underline">Maths Only</li>
+                        </Link>
+                        <Link href="/English Only">
+                            <li className="cursor-pointer hover:underline">English Only</li>
+                        </Link>
                     </ul>
                 </div>
 
@@ -192,13 +216,25 @@ const Footer = () => {
                     <h1 className='text-white font-[Poppins] text-[24px] font-semibold leading-[140%] tracking-[0.432px] mt-[5%]'>
                         AP Programs
                     </h1>
-                    <ul className='flex flex-col gap-2 text-[16px] font-normal leading-[140%] tracking-[0.288px] mt-2'>
-                        <li><a href='/Flagship'></a> Flagship</li>
-                        <li><a href='/Sprint'></a>Sprint</li>
-                        <li><a href='/Accelerator'></a>Accelerator</li>
-                        <li><a href='/Crash'></a>Crash</li>
-                        <li><a href='/Maths Only'></a>Maths Only</li>
-                        <li><a href='/English Only'></a>English Only</li>
+                    <ul className='flex flex-col gap-2 text-[20px] font-normal leading-[140%] tracking-[0.36px] mt-2'>
+                    <Link href="/Flagship">
+                            <li className="cursor-pointer hover:underline">Flagship</li>
+                        </Link>
+                        <Link href="/Sprint">
+                            <li className="cursor-pointer hover:underline">Sprint</li>
+                        </Link>
+                        <Link href="/Accelerator">
+                            <li className="cursor-pointer hover:underline">Accelerator</li>
+                        </Link>
+                        <Link href="/Crash">
+                            <li className="cursor-pointer hover:underline">Crash</li>
+                        </Link>
+                        <Link href="/Maths Only">
+                            <li className="cursor-pointer hover:underline">Maths Only</li>
+                        </Link>
+                        <Link href="/English Only">
+                            <li className="cursor-pointer hover:underline">English Only</li>
+                        </Link>
                     </ul>
                 </div>
             </div>
@@ -206,20 +242,20 @@ const Footer = () => {
             {/* left side */}
             <div className='flex flex-wrap justify-between gap-x-10 px-6 pb-5 md:px-12 max-w-[1280px] mx-auto'>
                 <div>
-                    <p className=' text-white font-[Poppins] text-[16px] font-normal leading-[28px] tracking-[0.36px] mt-6 -mx-3'>
+                    <p className=' text-white font-[Poppins] text-[20px] font-normal leading-[28px] tracking-[0.36px] mt-6 -mx-3'>
                         Copyright © 2025 SATnpaper
                     </p>
                 </div>
 
                 {/* right side */}
-                <div className='flex flex-wrap justify-between mt-6 gap-x-20 px-6 pb-10 md:px-12'>
-                    <p className="text-white font-[Poppins] text-[16px] leading-[28px] tracking-[0.36px]">
+                <div className='flex flex-wrap justify-between mt-6 gap-x-20 px-6 pb-10'>
+                    <p className="text-white font-[Poppins] text-[20px] leading-[28px] tracking-[0.36px]">
                         Terms of Service
                     </p>
-                    <p className="text-white font-[Poppins] text-[16px] leading-[28px] tracking-[0.36px]">
+                    <p className="text-white font-[Poppins] text-[20px] leading-[28px] tracking-[0.36px]">
                         Privacy Policy
                     </p>
-                    <p className="text-white font-[Poppins] text-[16px] leading-[28px] tracking-[0.36px]">
+                    <p className="text-white font-[Poppins] text-[20px] leading-[28px] tracking-[0.36px]">
                         Refund Policy
                     </p>
                 </div>

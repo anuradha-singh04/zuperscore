@@ -1,13 +1,14 @@
 import Footer from '@/components/footer/Footer'
 import Header from '@/components/header/Header'
-import React from 'react'
+import HeroSection from '@/components/heroSection/HeroSection'
+import Metrics from '@/components/metrics/Metrics'
 
 const Contact = () => {
   return (
     <div>
-      this is my contact page
-     <Header />
-
+     <Header/>
+    <HeroSection/>
+    <Metrics/>
     <Footer/>
    
     </div>
