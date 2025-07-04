@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Poppins } from "next/font/google";
+import { Geist, Geist_Mono, Poppins, Protest_Strike } from "next/font/google";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -16,6 +16,12 @@ const poppins = Poppins({
   variable: "--font-poppins",
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+});
+
+const protestStrike = Protest_Strike({
+  variable: "--font-protest-strike",
+  subsets: ["latin"],
+  weight: "400", // Protest Strike only comes in 400 weight
 });
 
 export const metadata: Metadata = {
