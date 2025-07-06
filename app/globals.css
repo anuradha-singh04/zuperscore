@@ -1,29 +1,45 @@
 @import "tailwindcss";
 
+@layer components {
+  .bg-color {
+    @apply bg-[#721154];
+  }
 
+  .footer-heading {
+    @apply text-[#FFF3FC] font-[Protest_Strike] text-[40px] font-normal leading-[140%] tracking-[0.72px];
+  }
 
+  .footer-link {
+    @apply text-white font-[Poppins] text-[20px] font-normal leading-[140%] tracking-[0.36px];
+  }
 
-/* :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+  .footer-link-heading {
+    @apply text-white font-[Poppins] text-[24px] font-semibold leading-[140%] tracking-[0.432px] mt-[5%];
+  }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  .footer-list-item {
+    @apply cursor-pointer hover:underline;
+  }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  .footer-bottom-text {
+    @apply text-white font-[Poppins] text-[20px] font-normal leading-[28px] tracking-[0.36px];
+  }
+
+  .footer-section-heading {
+    @apply text-white font-[Poppins] text-[24px] font-semibold leading-[140%] tracking-[0.432px] mt-[5%];
+  }
+
+  .footer-section-list {
+    @apply flex flex-col gap-2 text-[20px] font-normal leading-[140%] tracking-[0.36px] mt-2;
+  }
+
+  .btn-primary {
+    @apply flex items-center justify-center px-4 cursor-pointer py-2 text-white rounded-lg transition shadow-sm;
+    background-color: #BB108C;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.04);
+  }
+
+  .btn-primary:hover {
+    background-color: #a10a79;
   }
 }
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
-} */
